@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Data Extractor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="width: 100vw; text-align: center;">Github Data Extractor</h1>
+
+    <div id="inputForm" style="width: 100vw; text-align: center; margin-top: 70px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+
+        <input type="url" name="url" id="userName" placeholder="Type Your Github UserName" style="width: 30vw; height: 5vh; border-radius: 10px; text-align: center; margin-bottom: 30px; color: black;">
+    
+        <button style="color: black; " id="submit">Submit</button>
+
+    </div>
+
+    <div id="cards">
+        <div class="card" id="username">Username: </div>
+        <div class="card" id="location">Location: </div>
+        <div class="card" id="email">Email: </div>
+        <div class="card" id="bio">Bio: </div>
+        <div class="card" id="publicRepos">Public Repos: </div>
+        <div class="card" id="publicGists">Public Gists: </div>
+        <div class="card" id="followers">Followers: </div>
+        <div class="card" id="following">Following: </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    font-family: "Ubuntu Mono", monospace;
+    color: aliceblue;
+}
+
+body{
+    background-color: #414242;
+}
+
+.card{
+    width: 350px;
+    height: 20vh;
+    background-color: aliceblue;
+    margin: 30px;
+    color: #414242;
+    text-align: center;
+    font-size: x-large;
+}
+
+#cards{
+    margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+}
